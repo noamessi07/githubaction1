@@ -52,7 +52,7 @@ variable "to_port2" {
 }
 
 variable "blocks" {
-    type = string
+    type = list(string)
 }
 
 variable "ami" {
